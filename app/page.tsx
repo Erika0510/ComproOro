@@ -229,7 +229,7 @@ export default function Home() {
                 </p>
                 <p>
                   <span className="font-semibold text-[#D4AF37]">Ciudad: </span>
-                  Quito - Pichincha
+                  Quito  -  Pichincha
                 </p>
                 <p>
                   <span className="font-semibold text-[#D4AF37]">Teléfono: </span>
