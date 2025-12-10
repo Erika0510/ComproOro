@@ -8,7 +8,7 @@ export default function Home() {
   const DISPLAY_WHATSAPP = "+593 099 524 5969";
 
   return (
-    <main className="min-h-screen bg-black text-[#D4AF37]">
+    <main className="min-h-screen bg-white text-[#D4AF37]">
       {/* NAVBAR */}
       <header className="w-full border-b border-[#D4AF37]">
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
@@ -65,16 +65,13 @@ export default function Home() {
             </p>
 
             <h1 className="text-4xl font-bold tracking-tight md:text-5xl text-[#D4AF37]">
-               tu oro, plata y relojes{" "}
-              <span className="text-[#9c7f28]">
-                al mejor precio del mercado.
-              </span>
+                Oro, plata y Relojes
+              
             </h1>
 
             <p className="max-w-xl text-sm text-[#9c7f28]">
               Negocio físico con atención segura y confiable. Trae tus piezas y
-              recibe una cotización justa según peso, material y estado. Sin
-              compromiso.
+              recibe una cotización justa según peso, material y estado.
             </p>
 
             {/* BOTONES */}
@@ -103,35 +100,20 @@ export default function Home() {
             </div>
 
             {/* BENEFICIOS */}
-            <div className="mt-4 grid grid-cols-2 gap-4 text-xs text-[#9c7f28] md:grid-cols-3">
-              
-              <div>
-                <p className="font-semibold text-[#D4AF37]">Negocio físico</p>
-                <p>Ubicación segura y verificada.</p>
-              </div>
-               <div>
-                
-                <p></p>
-              </div>
-              
-              <div>
-                <p className="font-semibold text-[#D4AF37]">Cotización justa</p>
-                <p>Según peso, pureza y estado real.</p>
-              </div>
-            </div>
+            
           </div>
         </section>
       </FadeInSection>
 
       {/* SERVICIOS / ¿QUÉ COMPRAMOS? */}
       <FadeInSection>
-        <section id="servicios" className="border-t border-[#D4AF37] bg-black">
+        <section id="servicios" className="border-t border-[#D4AF37] bg-white">
           <div className="mx-auto max-w-6xl px-4 py-12">
             <h2 className="text-2xl font-semibold text-[#D4AF37] mb-3">
               ¿Qué compramos?
             </h2>
 
-            <p className="text-sm text-gray-300 mb-8 max-w-2xl">
+            <p className="text-sm text-black-300 mb-8 max-w-2xl">
               Compramos diferentes tipos de piezas en oro, plata y relojes.
               Ofrecemos una valoración honesta.
             </p>
@@ -139,7 +121,7 @@ export default function Home() {
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
               {/* TARJETA 1 */}
               <FadeInSection>
-                <div className="group flex flex-col gap-3 rounded-2xl border border-[#D4AF37] bg-black p-5 shadow-md cursor-pointer
+                <div className="group flex flex-col gap-3 rounded-2xl border border-[#D4AF37] bg-white p-5 shadow-md cursor-pointer
                   transition duration-300 ease-out
                   hover:-translate-y-2 hover:scale-[1.02]
                   hover:bg-[#050505] hover:shadow-[0_0_25px_rgba(212,175,55,0.35)]
@@ -160,7 +142,7 @@ export default function Home() {
 
               {/* TARJETA 2 */}
               <FadeInSection>
-                <div className="group flex flex-col gap-3 rounded-2xl border border-[#D4AF37] bg-black p-5 shadow-md cursor-pointer
+                <div className="group flex flex-col gap-3 rounded-2xl border border-[#D4AF37] bg-white p-5 shadow-md cursor-pointer
                   transition duration-300 ease-out
                   hover:-translate-y-2 hover:scale-[1.02]
                   hover:bg-[#050505] hover:shadow-[0_0_25px_rgba(212,175,55,0.35)]
@@ -181,7 +163,7 @@ export default function Home() {
 
               {/* TARJETA 3 */}
               <FadeInSection>
-                <div className="group flex flex-col gap-3 rounded-2xl border border-[#D4AF37] bg-black p-5 shadow-md cursor-pointer
+                <div className="group flex flex-col gap-3 rounded-2xl border border-[#D4AF37] bg-white p-5 shadow-md cursor-pointer
                   transition duration-300 ease-out
                   hover:-translate-y-2 hover:scale-[1.02]
                   hover:bg-[#050505] hover:shadow-[0_0_25px_rgba(212,175,55,0.35)]
@@ -202,7 +184,7 @@ export default function Home() {
 
               {/* TARJETA 4 */}
               <FadeInSection>
-                <div className="group flex flex-col gap-3 rounded-2xl border border-[#D4AF37] bg-black p-5 shadow-md cursor-pointer
+                <div className="group flex flex-col gap-3 rounded-2xl border border-[#D4AF37] bg-white p-5 shadow-md cursor-pointer
                   transition duration-300 ease-out
                   hover:-translate-y-2 hover:scale-[1.02]
                   hover:bg-[#050505] hover:shadow-[0_0_25px_rgba(212,175,55,0.35)]
@@ -212,7 +194,7 @@ export default function Home() {
                       🧩
                     </span>
                     <h3 className="text-sm font-semibold text-[#D4AF37] uppercase tracking-[0.15em]">
-                      Joyas rotas o para fundir
+                      Joyas rotas o en mal estado 
                     </h3>
                   </div>
                   <p className="text-xs text-gray-300">
@@ -227,7 +209,7 @@ export default function Home() {
 
       {/* UBICACIÓN PRO */}
       <FadeInSection>
-        <section id="ubicacion" className="border-t border-[#D4AF37] bg-black">
+        <section id="ubicacion" className="border-t border-[#D4AF37] bg-white">
           <div className="mx-auto max-w-6xl px-4 py-12 grid gap-10 md:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] items-start">
             {/* TEXTO UBICACIÓN */}
             <div>
@@ -236,7 +218,7 @@ export default function Home() {
               </h2>
               <p className="text-sm text-[#9c7f28] mb-4">
                 Visítanos en nuestro local físico y recibe asesoría
-                personalizada y pago inmediato.
+                personalizada.
               </p>
 
               <div className="space-y-2 text-sm text-[#9c7f28]">
@@ -305,14 +287,14 @@ export default function Home() {
       </FadeInSection>
 
       {/* FOOTER PROFESIONAL */}
-      <footer className="border-t border-[#D4AF37] bg-black">
+      <footer className="border-t border-[#D4AF37] bg-white">
         <div className="mx-auto max-w-6xl px-4 py-10 grid gap-8 text-xs text-[#9c7f28] md:grid-cols-4">
           <div className="space-y-3">
             <p className="text-sm font-semibold text-[#D4AF37]">
               Compro Oro & Relojes
             </p>
             <p>
-              Compra de oro, plata y relojes con pago inmediato, valoración
+              Compra de oro, plata y relojes, valoración
               honesta y atención personalizada en nuestro local físico.
             </p>
           </div>
